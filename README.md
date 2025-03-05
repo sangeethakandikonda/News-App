@@ -1,12 +1,46 @@
-# React + Vite
+# News App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A responsive news app built with React, Bootstrap, and News API. This app fetches real-time news from various sources and presents them in a clean, user-friendly interface.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Displays the latest news from various categories like Business, Technology, Health, Sports, Entertainment, and more.
+- Search for news by keywords.
+- Fully responsive UI, built with Bootstrap.
+- Real-time news updates powered by the [News API](https://newsapi.org/).
+- Simple and easy-to-use interface.
 
-## Expanding the ESLint configuration
+## Technologies Used
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- **React**: JavaScript library for building user interfaces.
+- **Bootstrap**: Front-end framework for responsive design.
+- **News API**: API service to fetch the latest news articles.
+- **Axios**: For making HTTP requests to the API.
+
+## Installation
+
+Follow the steps below to run the project locally.
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/yourusername/news-app.git
+Navigate to the project directory:
+
+bash
+Copy
+cd news-app
+Install the required dependencies:
+
+bash
+Copy
+npm install
+Create a .env file in the root of the project and add your News API key:
+
+env
+Copy
+REACT_APP_NEWS_API_KEY=your_news_api_key
+Run the app:
+
+bash
+Copy
+npm start

@@ -9,7 +9,7 @@ const NewsItem = ({ title, description, src, url }) => {
                 src={src && src !== "null" ? src : placeholderImage} 
                 alt="News" 
                 className="card-img-top" 
-                style={{ height: "200px", width: "360px", objectFit: "cover" }} 
+                style={{ height: "200px", width: "330px", objectFit: "cover" }} 
                 onError={(e) => e.target.src = placeholderImage} // Fallback if API image fails
             />
             <div className="card-body">
